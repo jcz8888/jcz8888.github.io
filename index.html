@@ -15,6 +15,12 @@ https://www.jsdelivr.com/
       &lt;script src="https://cdn.jsdelivr.net/gh/jcz8888/jcz8888.github.io@v1.0/js/test.js"&gt;&lt;/script&gt;
       </pre>
     </p>
+    <h2>在开发者工具的控制台，调用CDN上js文件</h2>
+    <p>
+      var script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/gh/jcz8888/jcz8888.github.io@v1.0/js/test.js';
+      document.head.appendChild(script);
+    </p>
   </div>
 </div>
 
